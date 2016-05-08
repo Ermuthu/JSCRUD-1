@@ -1,0 +1,74 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+<body>
+
+
+    <div class="page-header">
+        <h1 align="center">Javascript CRUD</h1>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3">
+                <form id="frmPerson" class="form-horizontal">
+                    <div class="form-group">
+                        <label for="txtID" class="col-sm-2 control-label">ID</label>
+                        <div class="col-sm-4">
+                            <input type="text" id="txtID" class="form-control" placeholder="ID">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtName" class="col-lg-2 control-label">Name</label>
+                        <div class="col-sm-4">
+                            <input type="text" id="txtName" class="form-control" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtPhone" class="col-lg-2 control-label">Phone</label>
+                        <div class="col-sm-4">
+                            <input type="text" id="txtPhone" class="form-control" placeholder="Phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtEmail" class="col-lg-2 control-label">Email</label>
+                        <div class="col-sm-4">
+                            <input type="email" id="txtEmail" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-offset-2 col-sm-4">
+                            <input type="submit" id="btnSave" class="btn btn-success" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <table id="tblList" class="table table-bordered"></table>
+    </div>
+
+
+
+
+
+</body>
+</html>
